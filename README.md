@@ -1,6 +1,17 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse projeto nasceu com o intuito de auxiliar nos seu estudos de um template totalmente gratuito e com o código aberto. Aqui claro, iremos trazer as melhores tecnologias já inclusas no mercado e também mais atualizadas possíveis, para que você possa estudar com tudo em cima e disponível.
+
+As tecnologias que estão inclusas nesse projeto são:
+    - ReactJS (Feito inteiramete com React Hooks)
+    - React Redux
+    - React Router Dom
+    - Material UI (Baseado no Material Design do Google)
+    - CSS 3
+    - Javascript
+
+Links para acessar cada documentação estão descritas abaixo:
+ /... Fazer em outro momento
 
 ## Available Scripts
 
