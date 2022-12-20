@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;1,500;1,700&display=swap');
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #545353;
+    --primary-background-color: #FFFFFF;
+}
