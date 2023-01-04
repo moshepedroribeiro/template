@@ -1,7 +1,8 @@
 import React from 'react';
 import backgroundImage from '../../assets/index_back.jpg';
-import {Container, Content} from './styles';
+import {Container, Content, LinksContainer} from './styles';
 import { TextField, FormControl, Button } from '@mui/material';
+import { NavLink } from 'react-router-dom';
 
 const Index = () => {
     return(
@@ -13,22 +14,27 @@ const Index = () => {
 
                 <FormControl className="form-control-login">
                     <TextField 
-                        className="mui-template-input" 
-                        id="standard-basic" 
-                        label="E-mail" 
-                        variant="standard" 
+                        className="mui-template-input"
+                        id="standard-basic"
+                        label="E-mail"
+                        variant="standard"
                     />
                     
                     <TextField
                         className="mui-template-input"
                         id="standard-password-input"
-                        label="Password"
+                        label="Senha"
                         type="password"
                         autoComplete="current-password"
                         variant="standard"
                     />
 
                     <Button className="btn-login" variant="contained" color="success">Login</Button>
+                
+                    <LinksContainer>
+                        <NavLink className="link-item" to="/forgot_password">Recuperar senha</NavLink>
+                        <NavLink className="link-item" to="/registration">Registrar-se</NavLink>
+                    </LinksContainer>
                 </FormControl>
             </Content>
         </Container>

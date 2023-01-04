@@ -8,9 +8,8 @@ export const Container = styled.div`
     position: relative;
     height: 100vh;
     width: 100%;
-    background: url(${props => props.source});
+    background-image: url(${props => props.source});
     background-size: cover;
-    background-repeat: no-repeat;
     overflow-x: hidden;
 `;
 
@@ -31,7 +30,6 @@ export const Content = styled.div`
         width: 80%;
         padding-left: 16px;
         padding-right: 16px;
-        margin-top: 16px;
 
         & > h3 {
             font-family: 'Roboto', sans-serif;
@@ -55,7 +53,7 @@ export const Content = styled.div`
         & > .btn-login {
             width: 100%;
             height: 50px;
-            margin-top: 32px;
+            margin-top: 64px;
         }
     }
 `;
@@ -64,7 +62,7 @@ export const LinksContainer = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 8px;
 
     & > .link-item {
